@@ -200,7 +200,8 @@ class GenWriter {
                 type: ft,
                 expr: gen(ft, f.pos),
                 optional: false,
-                pos: f.pos
+                pos: f.pos,
+                meta: f.meta.get(),
               });
             }
           

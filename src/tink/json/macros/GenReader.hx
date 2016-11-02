@@ -160,6 +160,7 @@ class GenReader {
           type: f.type,
           expr: f.expr,
           pos: f.pos,
+          meta: f.meta,
         } 
         
     function add(f:LiteInfo) 
